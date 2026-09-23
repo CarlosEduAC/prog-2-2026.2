@@ -1,0 +1,45 @@
+# Objetos compilados e arquivos de montagem
+*.o
+*.ko
+*.obj
+*.elf
+
+# Arquivos de linkagem e bibliotecas
+*.ilk
+*.map
+*.exp
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Cabeçalhos pré-compilados
+*.gch
+*.pch
+
+# Executáveis
+*.exe
+*.out
+*.app
+*.hex
+
+# Arquivos de depuração e log
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dwo
+*.log
+
+# Pastas comuns de build
+build/
+bin/
+obj/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
