@@ -45,3 +45,7 @@ obj/
 Thumbs.db
 
 Provas/*
+Gabarito/*
+!Gabarito/.gitkeep
+space_explorer/*
+!space_explorer/.gitkeep
