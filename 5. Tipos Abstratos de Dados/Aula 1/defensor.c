@@ -7,7 +7,7 @@ struct Defensor {
     int vida;
 };
 
-Defensor* defensor_criar(int x_inicial, int vida_inicial) {
+Defensor* defensor_criar2(int x_inicial, int vida_inicial) {
     Defensor *d = (Defensor *) malloc(sizeof(Defensor));
     if (d == NULL) return NULL; // Validação de memória
 

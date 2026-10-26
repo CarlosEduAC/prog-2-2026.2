@@ -8,7 +8,6 @@ Explique a diferença fundamental entre uma struct pública (declarada inteirame
 
 Considere o seguinte trecho de código de um aluno que tentou criar um TAD de gerenciamento de munição:
 
-
 ```c
 
 // municao.h

@@ -8,7 +8,7 @@
 typedef struct Defensor Defensor;
 
 // Funções Construtoras e Destrutoras (Gerenciamento do Heap)
-Defensor* defensor_criar(int x_inicial, int vida_inicial);
+Defensor* defensor_criar2(int x_inicial, int vida_inicial);
 void defensor_destruir(Defensor *d);
 
 // Interface de Operações (Comportamento)

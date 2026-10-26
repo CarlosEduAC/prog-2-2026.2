@@ -8,7 +8,7 @@ Se mudarmos a biblioteca gráfica da Raylib para SDL2 ou Ncurses no futuro, o c�
 
 ```txt
 
-CAMADA DE APRESENTAÇÃO                      CAMADA DE REGRA DE NEGÓCIO
+     CAMADA DE APRESENTAÇÃO                      CAMADA DE REGRA DE NEGÓCIO
               (main.c)                                (TADs no Heap)
 
    ┌──────────────────────────┐                    ┌──────────────────────────┐
