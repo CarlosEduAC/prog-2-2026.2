@@ -14,8 +14,8 @@ Para evitar perda de desempenho, o compilador insere bytes vazios invisíveis (p
 
 Exemplo: struct { char a; int b; char c; double d; }
 
-Offset:  0    1  2  3    4  5  6  7    8    9 10 11 12 13 14 15    16...23
-Bytes:  [a]  [PADDING]  [----b----]  [c]  [---PADDING---]          [---d---]
+Offset:  0    1  2  3    4  5  6  7    8    9 10 11 12 13 14 15  16...23
+Bytes:  [a]  [PADDING]  [----b----]   [c]   [-----PADDING-----]  [---d---]
 Total real: 24 bytes (Soma dos campos isolados: 1 + 4 + 1 + 8 = 14 bytes)
 
 ```
