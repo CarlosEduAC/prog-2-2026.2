@@ -52,9 +52,8 @@ A interface em linha de comando deve oferecer um menu simples com as seguintes o
 | --- | :---: | --- |
 | **Modularização, TAD e Bibliotecas** | 2,5 pts | Uso correto de `.h` e `.c`, *include guards*, ponteiro opaco e `static`. |
 | **Lista Encadeada e Recursividade** | 2,5 pts | Manipulação correta dos ponteiros da lista e implementação funcional das rotinas recursivas. |
-| **Ordenação Interna** | 2,0 pts | Implementação própria e correta do algoritmo de ordenação escolhido. |
-| **Persistência em Arquivo** | 2,0 pts | Gravação e recuperação íntegra dos dados entre diferentes execuções do programa. |
-| **Gestão de Memória (Valgrind)** | 1,0 pt | Ausência de *segmentation faults* e liberação completa da memória alocada (`0 leaks`). |
+| **Ordenação Interna** | 2,5 pts | Implementação própria e correta do algoritmo de ordenação escolhido. |
+| **Persistência em Arquivo** | 2,5 pts | Gravação e recuperação íntegra dos dados entre diferentes execuções do programa. |
 
 ---
 
